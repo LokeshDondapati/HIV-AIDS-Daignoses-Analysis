@@ -13,6 +13,7 @@ setup(
         'matplotlib>=3.0.2',
         'numpy>=1.15.2',
         'pandas>=0.23.4',
-        'seaborn>=0.11.0'
+        'seaborn>=0.11.0',
+        'scikit-learn>=1.3.2'
     ],
 )
