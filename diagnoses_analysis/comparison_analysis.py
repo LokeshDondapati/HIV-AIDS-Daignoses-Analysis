@@ -66,7 +66,7 @@ class Inference:
         Returns:
         - pd.DataFrame: Second dataset.
         """
-        file_path = "https://raw.githubusercontent.com/LokeshDondapati/HIV-AIDS-Diagnoses-Analysis/main/Datasets/HIV_AIDS_Diagnoses_by_Neighborhood__Sex__and_Race_Ethnicity_20231126.csv"
+        file_path = "https://raw.githubusercontent.com/LokeshDondapati/HIV-AIDS-Daignoses-Analysis/main/Datasets/HIV_AIDS_Diagnoses_by_Neighborhood__Sex__and_Race_Ethnicity_20231126.csv"
         data = pd.read_csv(file_path)
         return data
 
